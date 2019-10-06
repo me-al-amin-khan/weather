@@ -1,0 +1,11 @@
+.one-edge-shadow {
+	-webkit-box-shadow: 0 10px 10px -6px black;
+	   -moz-box-shadow: 0 10px 10px -6px black;
+	        box-shadow: 0 10px 10px -6px black;
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  color: white;
+}

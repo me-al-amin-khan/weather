@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+  <body>
+
+
+    <div class="one-edge-shadow blue darken-1">
+      <div class="content">
+        <h4 class="center">OpenWeather Forecast</h4>
+      </div>
+    </div>
+    <br>
+
+    <div class="container">
+      <div class="row valign-wrapper ">
+        <div class="col s5 offset-s3 valign">
+          <div class="card small blue-grey darken-1 hoverable z-depth-4">
+            <div class="card-content white-text">
+              <div class="row container">
+                <span class="card-title">Dhaka</span>
+                <div class="card-image col s4">
+                  <img class=" responsive-img" src="{% static 'image/beach.png' %}" alt="weather">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+  </body>
+</html>
